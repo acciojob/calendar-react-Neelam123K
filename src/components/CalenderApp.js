@@ -38,7 +38,6 @@ export default function CalendarApp() {
   const prevYear = () => setYear(year - 1);
   const nextYear = () => setYear(year + 1);
 
-  // Generate calendar days
   const generateCalendar = () => {
     const weeks = [];
     let days = [];
